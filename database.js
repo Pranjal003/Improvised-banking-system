@@ -13,7 +13,7 @@ mongoose.connect("mongodb://localhost:27017/newdb01" ,
 
 }
 
-).then(() => {
+).then(() => { 
         console.warn("Connected to the database");
 }).catch((e)=>{
         console.log("No connection"); 
