@@ -6,7 +6,7 @@ mongoose.connect("mongodb://localhost:27017/newdb01" ,
  
 { 
  
-    useNewUrlParser:true,
+    useNewUrlParser:true, 
     useUnifiedTopology:true,  
     useCreateIndex:true, 
     strictQuery: true 
